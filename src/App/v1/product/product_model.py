@@ -11,7 +11,6 @@ class Product(BaseModel):
     user: User
 
 
-
-
-
-
+class Product_Quantity(BaseModel):
+    product: Product
+    quantity: int
